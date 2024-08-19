@@ -32,19 +32,19 @@ switch (true){
         break;
     
     case secondoVoto >= 21 && secondoVoto < 24:
-        alert(`Sufficiente!!`);
+        alert(`Buono!!`);
         break;
 
     case secondoVoto >= 24 && secondoVoto < 27:
-        alert(`Sufficiente!!`);
+        alert(`Distinto!!`);
         break;
 
     case secondoVoto >= 27 && secondoVoto < 30:
-        alert(`Sufficiente!!`);
+        alert(`Ottimo!!`);
         break;    
 
     case secondoVoto == 30:
-        alert(`Sufficiente!!`);
+        alert(`Eccellente!!`);
         break;
 
     default:
